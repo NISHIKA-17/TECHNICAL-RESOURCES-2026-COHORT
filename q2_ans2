@@ -1,0 +1,16 @@
+n=int(input("Enter a number : "))
+#for marks above 90, print excellent
+if n>90 :
+    print('excellent')
+#for marks above 80 and less than equal to 90, print good
+elif n>80 and n<=90:
+    print("GOOD")
+#for marks above 70 and less than equal to 80, print fair
+elif n>70 and n<=80:
+    print("FAIR")
+#for marks above 60 and less than equal to 70, print meets expectations
+elif n>60 and n <=70 :
+    print (" MEETS EXPECTATION ")
+#for marks less than equal to 60, print below par
+elif n<60:
+    print("BELOW PAR ")
